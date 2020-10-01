@@ -1,5 +1,5 @@
 # bootstrap_responsive
-Webpage responsive using Bootstrap framework.
+Responsive webpage using HTML, CSS and Bootstrap framework.
 
 
 
