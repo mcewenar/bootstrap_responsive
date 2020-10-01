@@ -2,11 +2,13 @@
 Responsive webpage using HTML, CSS and Bootstrap framework.
 
 
+Task URL: https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md
+
+
 
                                                                                   REQUERIMENTS:
                                                                                  
-                                                                                 
-                                                                                 
+                                                     
                                                                                  
 1. Create a folder in your repository that will serve as a container folder for your solution to this assignment. You can call it whatever you want. For example, module3-solution or mod3_solution, etc. Create an index.html file inside the solution container folder, e.g., module3-solution/index.html.
 
