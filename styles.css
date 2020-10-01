@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    color: #000000;
+    background-color: #c1a6da;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-color: #BD93F9;
+    border-radius: 0;
+    border: 0;
+}
+  
+  
+.navbar-brand {
+    padding-top: 50px;
+}
+  
+.navbar-brand h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    color: #000000;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+  
+  
+#nav-list {
+    margin-top: 5px;
+    margin-right: -30px;
+}
+#nav-list a {
+    color: #000000;
+    background-color: #8a8a8a;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+}
+#nav-list a:hover {
+    background: #c2c0c2;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+  
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px; 
+}
+  
+#menu1{ 
+    border:2px solid black;
+}
+#menu2 { 
+    border:2px solid black; 
+}
+#menu3{ 
+    border:2px solid black; 
+
+}
+  
+  
+h1 {
+    text-align: center;
+    font-family: "sans-serif";
+}
+#hue {
+    width: auto;
+    height: auto;
+    border: 2px;
+    /*overflow: hidden;*/
+    margin-top: -50px;
+    margin-bottom: 10px;
+    background-color: #1792be;
+}
+
+.section {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    /*margin-left: 5%;*/
+    /*overflow: hidden;*/
+    /*margin-top: 30px;
+    margin-bottom: 10px;*/
+    background-color: #285666;
+
+
+}
+
+.section p {
+    font-weight: bold;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    font-family: Georgia, serif;
+}
+
+.section h2 {
+    text-align: center;
+    margin-right: 0;
+    font-family: "cursive;";
+    font-weight: bold;
+}
+
+
+footer a {
+    clear: left;
+    bottom: -50px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 2em;
+
+}
+a:link {
+    position: relative;
+    display: block;
+
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: #123456;
+}
+a:active {
+    color:blueviolet;
+}
+  /********** Desktop **********/
+@media (min-width: 1200px) {
+  
+    .container {
+        height: 100px;
+    }
+  
+    .navbar-brand {
+        padding-top: 35px;
+    }
+    .section {
+        margin-top: 30px;
+    }
+}
+  
+  /********** Tablets **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        height: 100px;
+    }
+    .navbar-brand {
+        padding-top: 35px;
+    }
+    .section {
+        margin-top: 30px;
+    }
+}
+  
+  /********** Small devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        height: 100px;
+    }
+    .navbar-brand {
+        padding-top: 35px;
+    }
+    .section {
+        margin-top: 30px;
+    }
+}
+  
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+}
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 4vw; /* 1vw = 1% of viewport width */
+}
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+}
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+}
+  
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    .section {
+        margin-top: 30px;
+    }
+} 
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    .section {
+        margin-top: 30px;
+    }
+    /* Header */
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    /* End Header */
+    
+    
+}
